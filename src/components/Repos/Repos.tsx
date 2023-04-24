@@ -27,7 +27,7 @@ type RepoItemProps = {
 function RepoItem({ repo }: RepoItemProps) {
   return (
     <div className='card my-2'>
-      <div className='card-body'>
+      <div className='card-body bg-secondary-subtle'>
         <h3 className='mb-2 card-title'>
           <a
             href={repo.html_url}
