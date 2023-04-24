@@ -39,16 +39,16 @@ function RepoItem({ repo }: RepoItemProps) {
         </h3>
         <p className='mb-3'>{repo.description}</p>
         <div>
-          <div className='mr-2 badge rounded-pill text-bg-info'>
-            <FaEye className='mr-2' /> {repo.watchers_count}
+          <div className='m-1 badge rounded-pill text-bg-info'>
+            <FaEye className='mr-1' /> {repo.watchers_count}
           </div>
-          <div className='mr-2 badge rounded-pill text-bg-success'>
+          <div className='m-1 badge rounded-pill text-bg-success'>
             <FaSteamSquare className='mr-2' /> {repo.stargazers_count}
           </div>
-          <div className='mr-2 badge rounded-pill text-bg-danger'>
+          <div className='m-1 badge rounded-pill text-bg-danger'>
             <FaInfo className='mr-2' /> {repo.open_issues}
           </div>
-          <div className='mr-2 badge rounded-pill text-bg-warning'>
+          <div className='m-1 badge rounded-pill text-bg-warning'>
             <FaUtensils className='mr-2' /> {repo.forks}
           </div>
         </div>
